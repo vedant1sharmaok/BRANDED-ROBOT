@@ -203,8 +203,8 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAEPfydlFju--7XLwLrHfR0SB2VhgJyPogACugQAAkbbGFTfb4630GFK3DAE"
+            update.effective_message.reply_video(
+                "https://te.legra.ph/file/b0f1b2312db942cabb620.mp4"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
