@@ -1,5 +1,5 @@
 class Config(object):
-    LOGGER = True
+    LOGGER = false
 
     # Get this value from my.telegram.org/apps
     API_ID = "23053980"
